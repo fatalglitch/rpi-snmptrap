@@ -1,7 +1,7 @@
 FROM ubuntu:xenial
 MAINTAINER fatalglitch82
 
-EXPOSE 161 162
+EXPOSE 162
 
 RUN apt-get update && \
     apt-get install -y snmpd snmptrapd snmptt snmp-mibs-downloader && \
